@@ -1,0 +1,8 @@
+{
+  "uuid": "airplay-toggle@ekorre.hr",
+  "name": "AirPlay Toggle",
+  "description": "Quick Settings toggle for PipeWire's AirPlay (RAOP) speaker discovery.\n\nKeeps AirPlay speakers out of your output list until you actually want them, so audio never silently falls back to a network receiver (at full volume) when your monitor sleeps or headphones disconnect.\n\nRequires PipeWire with pipewire-pulse, pactl, and Avahi. On Fedora, also disable the always-on discovery in PipeWire's config - see the README.",
+  "url": "https://github.com/sveby/airplay-toggle-gnome-extension",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version-name": "1.0"
+}
